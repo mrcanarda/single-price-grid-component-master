@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  margin: 30px 400px;
+  padding: 0 30px;
+}
+
+/* ONE HEADER */
+
+.one {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px 30px;
+  gap: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header {
+  margin-bottom: 12px;
+  color: hsl(179, 62%, 43%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-two {
+  color: hsl(71, 73%, 54%);
+  font-size: 16px;
+}
+
+.paragraph {
+  width: 98%;
+  line-height: 1.5;
+  color: hsl(218, 22%, 67%);
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/*GENERAL*/
+
+.header,
+.header-two,
+.paragraph {
+  padding-left: 10px;
+}
+
+.two-header,
+.price,
+.two-paragraph,
+.btn {
+  padding-left: 10px;
+}
+
+/* TWO HEADER */
+
+.two-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.two {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px 30px;
+  gap: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(0, 0, 0.24, 0) 0px 3px 8px;
+}
+
+.two-header {
+  color: #fff;
+  font-size: 16px;
+}
+
+.dolar-price {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.price {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.price-two {
+  color: #fff;
+}
+
+.two-paragraph {
+  color: #fff;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.three {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  background-color: hsl(179, 66%, 49%);
+  padding: 30px 30px;
+  height: 220px;
+  gap: 6px;
+  color: #fff;
+  font-size: 12px;
+  height: 250px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 3px 8px;
+}
+
+.three-header {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.three-paragraph {
+  width: 75%;
+  line-height: 1.4;
+}
